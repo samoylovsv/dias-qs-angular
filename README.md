@@ -201,11 +201,16 @@ export interface User {
 }
 ```
 ## 10. Компоновка модулей.
+
+```shell
 ng generate m modules/layout
 ng g c modules/layout/components/layout-entry-pc
 ng g c modules/layout/components/layout-site-pc
 ng g c modules/layout/components/layout-entry-app
 ng g c modules/layout/components/layout-site-app
+
+ng g c modules/courses/components/course-item
+```
 ___
 
 #### Источники:
